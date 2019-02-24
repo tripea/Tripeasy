@@ -1,0 +1,16 @@
+#security:
+#  oauth2:
+#    client:
+#      clientId: cb8fbc44a05450920f80
+#      clientSecret: 8643bca7ffe72ea1b0b5da113c06c12ee9b03d3e
+#      accessTokenUri: https://github.com/login/oauth/access_token
+#      userAuthorizationUri: https://github.com/login/oauth/authorize
+#      tokenName: oauth_token
+#      authenticationScheme: query
+#      clientAuthenticationScheme: form
+#    resource:
+#      userInfoUri: https://api.github.com/user
+#
+#  
+#server:
+#  port: 8764
