@@ -52,8 +52,8 @@ a {padding: 10px 10px; display:inline-block;}
 						class="glyphicon glyphicon-log-out"></span> Logout</a></li> -->
 						<li>
 
-<p style="color: white">${pageContext.request.contextPath}</p>
-
+<%-- <p style="color: white">${pageContext.request.contextPath}</p>
+ --%>
     <c:if test="${pageContext.request.userPrincipal.name != null}">
         <form id="logoutForm" method="POST" action="${contextPath}/logout">
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
